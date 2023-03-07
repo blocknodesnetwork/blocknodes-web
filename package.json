@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "develop": "gatsby develop",
+    "develop": "gatsby clean && gatsby develop",
     "build": "gatsby build"
   },
   "repository": {
@@ -16,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gatsby": "^5.7.0",
+    "gatsby": "3.14.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
