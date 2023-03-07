@@ -3,7 +3,7 @@ import React from 'react'
 const index = () => {
   return (
     <div>
-      <h1>Hello World</h1>
+      <h1>Blocknodes Network</h1>
     </div>
   )
 }
