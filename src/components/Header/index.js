@@ -20,7 +20,11 @@ export default function Example() {
           <div className="flex lg:flex-1">
             <a href="#">
               <span className="sr-only">Your Company</span>
-              <StaticImage src="../../images/black-logo-nobackground.png" alt="blocknodes network logo" />
+              <StaticImage 
+                src="../../images/black-logo-nobackground.png" 
+                alt="blocknodes network logo" 
+                placeholder="blurred"
+              />
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -33,13 +37,13 @@ export default function Example() {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="hidden lg:flex lg:gap-x-12">
+          {/* <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
               <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
                 {item.name}
               </a>
             ))}
-          </div>
+          </div> */}
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
               Log in <span aria-hidden="true">&rarr;</span>
@@ -105,7 +109,7 @@ export default function Example() {
                 Decentralized computing for <span className="text-red-900">everyone...</span>
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                We are a services based company with a focus on creating privacy focused, censorship resistant and decentralized infrastructure for your web or mobile applications.
+                We are a services based company with a focus on creating privacy focused, censorship resistant and decentralized infrastructure for your applications.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 {/* <a
