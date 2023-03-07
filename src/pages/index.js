@@ -5,7 +5,6 @@ const index = () => {
   return (
     <>
       <Header />
-      <h1>Blocknodes Network</h1>
     </>
   )
 }
